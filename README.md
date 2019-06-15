@@ -1,5 +1,7 @@
 ## 利用C 标准函数库 `setjmp.h` 和宏定义实现一个类似java一样的异常处理机制
 
+#### 原理是：合理的运用了 `setjum` 和 `longjmp` 函数
+
 ### 基本的try-catch
 ```
  #include <stdio.h>
